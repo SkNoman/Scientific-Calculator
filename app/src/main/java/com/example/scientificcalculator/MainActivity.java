@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //just remove below line
-        Toast.makeText(getApplicationContext(),"I Changed The Structure for You Jan", Toast.LENGTH_SHORT).show();
+        //Welcome Message
+        Toast.makeText(getApplicationContext(),"WELCOME", Toast.LENGTH_SHORT).show();
 
 
         b0=findViewById(R.id.b0);
@@ -142,8 +142,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 input.setText("");
                 output.setText("");
-                Toast.makeText(getApplicationContext(),"I Love You Jan", Toast.LENGTH_SHORT).show();
-                //above message is for fun don't take it seriously
+           
             }
         });
         bc.setOnClickListener(new View.OnClickListener() {
